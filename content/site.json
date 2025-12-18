@@ -1,0 +1,110 @@
+{
+  "site": {
+    "name": "Bebek Goreng Pak Eko",
+    "tagline": "Jawara Rasanya, Juara Pedasnya!",
+    "since": "1998",
+    "website_url": "",
+    "instagram_url": "",
+    "privacy_url": "#",
+    "terms_url": "#",
+
+    "whatsapp_number": "6281234567890",
+    "whatsapp_message": "Halo Pak Eko, saya mau pesan.",
+    "whatsapp_url": "https://wa.me/6281234567890?text=Halo%20Pak%20Eko%2C%20saya%20mau%20pesan.",
+    "maps_url": "https://maps.google.com/?q=Bebek+Goreng+Pak+Eko",
+
+    "phone_international": "+62-812-3456-7890"
+  },
+
+  "seo": {
+    "title": "Bebek Goreng Pak Eko - Jawara Rasanya",
+    "description": "Bebek goreng presto empuk, sambal juara, harga merakyat. Mampir & pesan via WhatsApp. Buka setiap hari.",
+    "og_image": "/assets/img/hero.webp",
+    "servesCuisine": ["Indonesian"],
+    "priceRange": "Rp"
+  },
+
+  "hero": {
+    "headline_line1": "Bebek Goreng",
+    "headline_line2": "Pak Eko",
+    "subtitle": "Nikmati sensasi bebek goreng empuk dengan bumbu rempah meresap sampai ke tulang. ",
+    "image": "/assets/img/hero.webp",
+    "image_alt": "Bebek goreng crispy dengan nasi dan lalapan"
+  },
+
+  "features": [
+    { "icon": "restaurant", "title": "Rasa Otentik", "desc": "Resep keluarga turun temurun yang menjaga cita rasa bebek goreng tradisional." },
+    { "icon": "local_fire_department", "title": "Sambal Juara", "desc": "Pilihan sambal korek dan sambal ijo yang pedasnya bikin nagih." },
+    { "icon": "savings", "title": "Harga Merakyat", "desc": "Kualitas rasa bintang lima dengan harga kaki lima, cocok untuk semua." }
+  ],
+
+  "about": {
+    "kicker": "Tentang Kami",
+    "title": "Rahasia Kelezatan Bebek Pak Eko",
+    "image": "/assets/img/about.webp",
+    "image_alt": "Koki menyiapkan bumbu rempah",
+    "paragraphs": [
+      "Bermula dari resep keluarga sejak 1998, Bebek Goreng Pak Eko menyajikan cita rasa tradisional yang autentik dengan bumbu rempah pilihan.",
+      "Setiap potong bebek dipresto hingga empuk, lalu digoreng dadakan agar kulit renyah dan daging tetap juicy."
+    ],
+    "cta_text": "Baca Cerita Kami"
+  },
+
+  "menu": {
+    "title": "Menu Andalan",
+    "subtitle": "Pilihan favorit para pelanggan setia",
+    "cta_text": "Lihat Lokasi",
+    "items": [
+      {
+        "name": "Bebek Goreng Paha",
+        "desc": "Paha bebek presto goreng kering dengan serundeng gurih.",
+        "price": 35000,
+        "badge": "Best Seller",
+        "image": "/assets/img/menu-paha.webp",
+        "alt": "Bebek goreng paha"
+      },
+      {
+        "name": "Bebek Goreng Dada",
+        "desc": "Dada bebek montok, daging tebal, kulit renyah.",
+        "price": 35000,
+        "badge": "",
+        "image": "/assets/img/menu-dada.webp",
+        "alt": "Bebek goreng dada"
+      },
+      {
+        "name": "Sambal Korek Juara",
+        "desc": "Sambal rawit merah segar diulek kasar dengan minyak panas.",
+        "price": 5000,
+        "badge": "Pedas!",
+        "image": "/assets/img/menu-sambal.webp",
+        "alt": "Sambal korek pedas"
+      },
+      {
+        "name": "Paket Komplit",
+        "desc": "Nasi, bebek, tahu, tempe, lalapan, dan sambal.",
+        "price": 45000,
+        "badge": "",
+        "image": "/assets/img/menu-paket.webp",
+        "alt": "Paket komplit bebek"
+      }
+    ]
+  },
+
+  "location": {
+    "title": "Mampir Yuk!",
+    "subtitle": "Nikmati bebek goreng panas-panas langsung di tempat kami.",
+    "address": "Jl. Raya Kuliner No. 88, Kecamatan Rasa, Kota Sedap, Indonesia",
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+
+    "city": "Jakarta",
+    "region": "DKI Jakarta",
+    "postal_code": "12345",
+    "country": "ID",
+
+    "geo": { "lat": -6.200000, "lng": 106.816666 },
+
+    "map_image": "/assets/img/hero.webp",
+    "map_alt": "Peta lokasi Bebek Goreng Pak Eko"
+  }
+}
