@@ -126,12 +126,12 @@ $ldJson = json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
     <div class="flex items-center justify-between h-20">
       <a class="flex items-center gap-3" href="#beranda" aria-label="<?php echo e($siteName); ?>">
 <div class="size-10 rounded-full overflow-hidden bg-brand-yellow flex items-center justify-center">
-  <img
-    src="/assets/img/logo.png"
-    alt="<?php echo e($siteName); ?> logo"
-    class="w-full h-full object-contain scale-125"
-    width="40" height="40"
-  >
+<img
+  src="assets/img/logo.png"
+  alt="<?php echo e($siteName); ?> logo"
+  class="w-full h-full object-contain"
+  width="40" height="40"
+/>
 </div>
 
 

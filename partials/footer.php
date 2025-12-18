@@ -5,12 +5,13 @@ $year = (int) date('Y'); ?>
     <div class="flex flex-col items-center justify-center text-center gap-8 mb-12">
       <div class="flex items-center gap-3">
 <div class="size-8 rounded-full overflow-hidden bg-brand-yellow flex items-center justify-center">
-  <img
-    src="/assets/img/logo.png"
-    alt="<?php echo e($c['site']['name'] ?? 'Logo'); ?>"
-    class="w-full h-full object-contain scale-125"
-    width="32" height="32"
-  >
+<img
+  src="assets/img/logo.png"
+  alt="<?php echo e($c['site']['name'] ?? 'Logo'); ?>"
+  class="w-full h-full object-contain"
+  width="32" height="32"
+/>
+
 </div>
 
 
