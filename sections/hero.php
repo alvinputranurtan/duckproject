@@ -12,13 +12,6 @@
   </div>
 
   <div class="relative z-10 max-w-[1280px] w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
-    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-      <span class="material-symbols-outlined text-brand-yellow text-sm">stars</span>
-      <span class="text-white text-xs font-bold uppercase tracking-wider">
-        Resep Warisan Sejak <?php echo e($c['site']['since'] ?? '1998'); ?>
-      </span>
-    </div>
-
     <h1 class="text-white text-5xl sm:text-6xl md:text-7xl font-black leading-tight tracking-tight mb-4">
       <?php echo e($c['hero']['headline_line1']); ?><br>
       <span class="text-brand-yellow"><?php echo e($c['hero']['headline_line2']); ?></span>

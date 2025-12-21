@@ -116,6 +116,11 @@ $ldJson = json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
   </style>
 
   <script type="application/ld+json"><?php echo $ldJson; ?></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
 </head>
 
 <body class="bg-background-light dark:bg-background-dark text-[#111814] dark:text-white font-display antialiased overflow-x-hidden">

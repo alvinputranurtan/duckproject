@@ -11,8 +11,8 @@
     "whatsapp_number": "6281234567890",
     "whatsapp_message": "Halo Pak Eko, saya mau pesan.",
     "whatsapp_url": "https://wa.me/6281234567890?text=Halo%20Pak%20Eko%2C%20saya%20mau%20pesan.",
-    "maps_url": "https://maps.google.com/?q=Bebek+Goreng+Pak+Eko",
 
+    "maps_url": "https://maps.app.goo.gl/3UkDcGiPDJbRGBKs9",
     "phone_international": "+62-812-3456-7890"
   },
 
@@ -27,9 +27,9 @@
   "hero": {
     "headline_line1": "Bebek Goreng",
     "headline_line2": "Pak Eko",
-    "subtitle": "Nikmati sensasi bebek goreng empuk dengan bumbu rempah meresap sampai ke tulang. ",
-    "image": "/assets/img/hero.webp",
-    "image_alt": "Bebek goreng crispy dengan nasi dan lalapan"
+    "subtitle": "Nikmati sensasi bebek goreng empuk dengan bumbu rempah meresap sampai ke tulang.",
+    "image": "assets/img/hero.jpg",
+    "image_alt": "depan warung bebek goreng pak eko di siang hari"
   },
 
   "features": [
@@ -41,7 +41,7 @@
   "about": {
     "kicker": "Tentang Kami",
     "title": "Rahasia Kelezatan Bebek Pak Eko",
-    "image": "/assets/img/about.webp",
+    "image": "assets/img/tentangkami.webp",
     "image_alt": "Koki menyiapkan bumbu rempah",
     "paragraphs": [
       "Bermula dari resep keluarga sejak 1998, Bebek Goreng Pak Eko menyajikan cita rasa tradisional yang autentik dengan bumbu rempah pilihan.",
@@ -53,7 +53,7 @@
   "menu": {
     "title": "Menu Andalan",
     "subtitle": "Pilihan favorit para pelanggan setia",
-    "cta_text": "Lihat Lokasi",
+    "cta_text": "Lihat Menu Lengkap",
     "items": [
       {
         "name": "Bebek Goreng Paha",
@@ -92,19 +92,215 @@
 
   "location": {
     "title": "Mampir Yuk!",
-    "subtitle": "Nikmati bebek goreng panas-panas langsung di tempat kami.",
-    "address": "Jl. Raya Kuliner No. 88, Kecamatan Rasa, Kota Sedap, Indonesia",
+    "subtitle": "Pilih cabang terdekat dan pesan online lewat platform favoritmu.",
+    "address": "Bawen, Kabupaten Semarang, Jawa Tengah",
     "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
     "openingHours": ["Mo-Su 10:00-22:00"],
 
-    "city": "Jakarta",
-    "region": "DKI Jakarta",
-    "postal_code": "12345",
+    "city": "Semarang",
+    "region": "Jawa Tengah",
+    "postal_code": "50661",
     "country": "ID",
 
-    "geo": { "lat": -6.200000, "lng": 106.816666 },
+    "geo": { "lat": -7.2453611111, "lng": 110.4321388889 },
 
-    "map_image": "/assets/img/hero.webp",
-    "map_alt": "Peta lokasi Bebek Goreng Pak Eko"
+    "map_alt": "Peta cabang Bebek Goreng Pak Eko",
+
+    "delivery_platforms": {
+      "gofood": { "label": "GoFood" },
+      "grab": { "label": "GrabFood" },
+      "shopeefood": { "label": "ShopeeFood" }
+    },
+
+"branches": [
+  {
+    "id": "branch-01",
+    "name": "Bebek Goreng Pak Eko Bawen 1",
+    "address": "Jl. Palagan No.42, Ngrawan Lor, Bawen, Kec. Bawen, Kabupaten Semarang, Jawa Tengah 50661",
+    "maps_url": "https://maps.app.goo.gl/jGGvWLdV9QcH8RsWA",
+    "geo": { "lat": -7.245268, "lng": 110.432275 },
+    "is_24h": true,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "Coba cek Bebek Goreng Pak Eko - Bawen di GrabFood! https://r.grab.com/g/6-20251219_155310_39f42eb2f13b45e9a5fe8fac9adbaa3c_MEXMPS-6-CZBFGB2FJ3CEGT",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-02",
+    "name": "Bebek Goreng Pak Eko Bawen 2",
+    "address": "Jl. Palagan No.50, Ngrawan Lor, Bawen, Kec. Bawen, Kabupaten Semarang, Jawa Tengah 50661",
+    "maps_url": "https://maps.app.goo.gl/Qw27zSAdtXBrwUx46",
+    "geo": { "lat": -7.246721, "lng": 110.430535 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-03",
+    "name": "Bebek Goreng Pak Eko Cabang 3",
+    "address": "Jl. Contoh Alamat No.3, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+3+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2470000, "lng": 110.4340000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-04",
+    "name": "Bebek Goreng Pak Eko Cabang 4",
+    "address": "Jl. Contoh Alamat No.4, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+4+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2480000, "lng": 110.4350000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-05",
+    "name": "Bebek Goreng Pak Eko Cabang 5",
+    "address": "Jl. Contoh Alamat No.5, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+5+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2490000, "lng": 110.4360000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-06",
+    "name": "Bebek Goreng Pak Eko Cabang 6",
+    "address": "Jl. Contoh Alamat No.6, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+6+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2500000, "lng": 110.4370000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-07",
+    "name": "Bebek Goreng Pak Eko Cabang 7",
+    "address": "Jl. Contoh Alamat No.7, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+7+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2510000, "lng": 110.4380000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-08",
+    "name": "Bebek Goreng Pak Eko Cabang 8",
+    "address": "Jl. Contoh Alamat No.8, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+8+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2520000, "lng": 110.4390000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-09",
+    "name": "Bebek Goreng Pak Eko Cabang 9",
+    "address": "Jl. Contoh Alamat No.9, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+9+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2530000, "lng": 110.4400000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-10",
+    "name": "Bebek Goreng Pak Eko Cabang 10",
+    "address": "Jl. Contoh Alamat No.10, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+10+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2540000, "lng": 110.4410000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  },
+  {
+    "id": "branch-11",
+    "name": "Bebek Goreng Pak Eko Cabang 11",
+    "address": "Jl. Contoh Alamat No.11, Kota Contoh, Indonesia",
+    "maps_url": "https://maps.google.com/?q=Cabang+11+Bebek+Pak+Eko",
+    "geo": { "lat": -7.2550000, "lng": 110.4420000 },
+    "is_24h": false,
+    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
+    "openingHours": ["Mo-Su 10:00-22:00"],
+    "wa_number": "6281234567890",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "platforms": {
+      "gofood": "",
+      "grab": "",
+      "shopeefood": ""
+    }
+  }
+]
+
   }
 }
