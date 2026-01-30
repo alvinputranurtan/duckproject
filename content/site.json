@@ -122,11 +122,11 @@
     "is_24h": true,
     "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
     "openingHours": ["Mo-Su 10:00-22:00"],
-    "wa_number": "6281234567890",
-    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "wa_number": "085867342900",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Bawen 1.",
     "platforms": {
       "gofood": "",
-      "grab": "Coba cek Bebek Goreng Pak Eko - Bawen di GrabFood! https://r.grab.com/g/6-20251219_155310_39f42eb2f13b45e9a5fe8fac9adbaa3c_MEXMPS-6-CZBFGB2FJ3CEGT",
+      "grab": "https://r.grab.com/g/6-20251219_155310_39f42eb2f13b45e9a5fe8fac9adbaa3c_MEXMPS-6-CZBFGB2FJ3CEGT",
       "shopeefood": ""
     }
   },
@@ -140,7 +140,7 @@
     "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
     "openingHours": ["Mo-Su 10:00-22:00"],
     "wa_number": "6281234567890",
-    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Bawen 2.",
     "platforms": {
       "gofood": "",
       "grab": "",
@@ -149,19 +149,19 @@
   },
   {
     "id": "branch-03",
-    "name": "Bebek Goreng Pak Eko Cabang 3",
-    "address": "Jl. Contoh Alamat No.3, Kota Contoh, Indonesia",
-    "maps_url": "https://maps.google.com/?q=Cabang+3+Bebek+Pak+Eko",
-    "geo": { "lat": -7.2470000, "lng": 110.4340000 },
+    "name": "Bebek Goreng Pak Eko Ketileng",
+    "address": "Jl. Ketileng Indah Raya No.2, Sendangmulyo, Kec. Tembalang, Kota Semarang, Jawa Tengah 50272",
+    "maps_url": "https://maps.app.goo.gl/ViG45fQ69mY6AX8u7",
+    "geo": { "lat": -7.031913, "lng": 110.471796 },
     "is_24h": false,
-    "hours_text": "Senin - Minggu\n10:00 - 22:00 WIB",
-    "openingHours": ["Mo-Su 10:00-22:00"],
-    "wa_number": "6281234567890",
-    "wa_message": "Halo Pak Eko, saya mau pesan di Cabang 1.",
+    "hours_text": "Senin - Minggu\n09:00 - 21:00 WIB",
+    "openingHours": ["Mo-Su 09:00-21:00"],
+    "wa_number": "6285756162007",
+    "wa_message": "Halo Pak Eko, saya mau pesan di Ketileng.",
     "platforms": {
-      "gofood": "",
+      "gofood": "https://gofood.link/a/Ew9zWv3",
       "grab": "",
-      "shopeefood": ""
+      "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/20631135?deep_and_deferred=1&shareChannel=copy_link"
     }
   },
   {
