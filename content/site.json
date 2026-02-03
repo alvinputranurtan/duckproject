@@ -18,7 +18,7 @@
 
   "seo": {
     "title": "Bebek Goreng Pak Eko - Jawara Rasanya",
-    "description": "Bebek goreng presto empuk, sambal juara, harga merakyat. Mampir & pesan via WhatsApp. Buka setiap hari.",
+    "description": "Bebek goreng empuk, sambal juara, harga merakyat. Mampir & pesan via WhatsApp. Buka setiap hari.",
     "og_image": "/assets/img/hero.webp",
     "servesCuisine": ["Indonesian"],
     "priceRange": "Rp"
@@ -33,7 +33,7 @@
   },
 
   "features": [
-    { "icon": "restaurant", "title": "Rasa Otentik", "desc": "Resep keluarga turun temurun yang menjaga cita rasa bebek goreng tradisional." },
+    { "icon": "restaurant", "title": "Rasa Otentik", "desc": "Cita rasa bebek goreng tradisional." },
     { "icon": "local_fire_department", "title": "Sambal Juara", "desc": "Pilihan sambal korek dan sambal ijo yang pedasnya bikin nagih." },
     { "icon": "savings", "title": "Harga Merakyat", "desc": "Kualitas rasa bintang lima dengan harga kaki lima, cocok untuk semua." }
   ],
@@ -44,10 +44,10 @@
     "image": "assets/img/tentangkami.webp",
     "image_alt": "Koki menyiapkan bumbu rempah",
     "paragraphs": [
-      "Bermula dari resep keluarga sejak 1998, Bebek Goreng Pak Eko menyajikan cita rasa tradisional yang autentik dengan bumbu rempah pilihan.",
-      "Setiap potong bebek dipresto hingga empuk, lalu digoreng dadakan agar kulit renyah dan daging tetap juicy."
+      "Bebek Goreng Pak Eko menyajikan cita rasa tradisional yang autentik dengan bumbu rempah pilihan.",
+      "Setiap potong bebek dibumbui hingga meresap, lalu digoreng dadakan agar kulit renyah dan daging tetap juicy."
     ],
-    "cta_text": "Baca Cerita Kami"
+    "cta_text": ""
   },
 
   "menu": {
@@ -56,36 +56,36 @@
     "cta_text": "Lihat Menu Lengkap",
     "items": [
       {
-        "name": "Bebek Goreng Paha",
-        "desc": "Paha bebek presto goreng kering dengan serundeng gurih.",
-        "price": 35000,
+        "name": "Bebek Goreng 1 Ekor",
+        "desc": "Bebek Goreng 1 Ekor yang gurih dan lezat.",
+        "price": 150000,
         "badge": "Best Seller",
-        "image": "/assets/img/menu-paha.webp",
-        "alt": "Bebek goreng paha"
+        "image": "/assets/img/menu-bebekgoreng1ekor.webp",
+        "alt": "Bebek goreng 1 ekor"
       },
       {
-        "name": "Bebek Goreng Dada",
-        "desc": "Dada bebek montok, daging tebal, kulit renyah.",
-        "price": 35000,
+        "name": "Ayam Jawa 1 Ekor Goreng",
+        "desc": "Ayam Jawa 1 Ekor, daging tebal.",
+        "price": 81500,
         "badge": "",
-        "image": "/assets/img/menu-dada.webp",
-        "alt": "Bebek goreng dada"
+        "image": "/assets/img/menu-ayamjawa1ekor.webp",
+        "alt": "Ayam jawa 1 ekor goreng"
       },
       {
-        "name": "Sambal Korek Juara",
-        "desc": "Sambal rawit merah segar diulek kasar dengan minyak panas.",
+        "name": "Paket Ayam Negri Jumbo",
+        "desc": "Ayam Negri Jumbo, Lalapan, dan Sambal.",
         "price": 5000,
         "badge": "Pedas!",
-        "image": "/assets/img/menu-sambal.webp",
-        "alt": "Sambal korek pedas"
+        "image": "/assets/img/menu-ayamnegrijumbo.webp",
+        "alt": "Ayam negri jumbo dengan sambal"
       },
       {
-        "name": "Paket Komplit",
-        "desc": "Nasi, bebek, tahu, tempe, lalapan, dan sambal.",
+        "name": "Ayam Negri Jumbo Bakar",
+        "desc": "Ayam Negri Jumbo, dibakar, bersama Lalapan, dan Sambal.",
         "price": 45000,
         "badge": "",
-        "image": "/assets/img/menu-paket.webp",
-        "alt": "Paket komplit bebek"
+        "image": "/assets/img/menu-ayamnegrijumbobakar.webp",
+        "alt": "Ayam negri jumbo bakar"
       }
     ]
   },
