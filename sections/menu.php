@@ -105,7 +105,7 @@
 
       <!-- hint -->
       <p class="text-gray-400 text-sm mt-3 text-center">
-        Geser untuk melihat menu lainnya. (HP: swipe • PC: scroll/drag)
+        Geser untuk melihat menu lainnya.
       </p>
     </div>
 

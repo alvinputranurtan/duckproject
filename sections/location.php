@@ -86,14 +86,14 @@ function _wa_url($b)
               <div id="osmMap" class="w-full aspect-[4/3]"></div>
 
               <!-- Overlay panduan singkat -->
-              <div class="absolute top-3 left-1/2 -translate-x-1/2 z-[600] bg-black/60 text-white text-xs px-3 py-1 rounded-full pointer-events-none">
+              <!-- <div class="absolute top-3 left-1/2 -translate-x-1/2 z-[600] bg-black/60 text-white text-xs px-3 py-1 rounded-full pointer-events-none">
                 Mobile: pinch • PC: Ctrl + Scroll • Drag untuk geser
-              </div>
+              </div> -->
 
               <!-- Overlay kecil (opsional) untuk switch zoom mode -->
-              <div class="absolute bottom-3 left-3 z-[600] bg-black/60 text-white text-xs px-3 py-1 rounded-full pointer-events-none">
+              <!-- <div class="absolute bottom-3 left-3 z-[600] bg-black/60 text-white text-xs px-3 py-1 rounded-full pointer-events-none">
                 Scroll biasa tidak zoom (aman untuk halaman)
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
