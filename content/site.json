@@ -60,7 +60,7 @@
         "desc": "Bebek Goreng 1 Ekor yang gurih dan lezat.",
         "price": 150000,
         "badge": "Best Seller",
-        "image": "/assets/img/menu-bebekgoreng1ekor.webp",
+        "image": "assets/img/menu-bebekgoreng1ekor.webp",
         "alt": "Bebek goreng 1 ekor"
       },
       {
@@ -68,23 +68,23 @@
         "desc": "Ayam Jawa 1 Ekor, daging tebal.",
         "price": 81500,
         "badge": "",
-        "image": "/assets/img/menu-ayamjawa1ekor.webp",
+        "image": "assets/img/menu-ayamjawa1ekor.webp",
         "alt": "Ayam jawa 1 ekor goreng"
       },
       {
         "name": "Paket Ayam Negri Jumbo",
-        "desc": "Ayam Negri Jumbo, Lalapan, dan Sambal.",
+        "desc": "Ayam Negri Jumbo, Lalapan.",
         "price": 5000,
-        "badge": "Pedas!",
-        "image": "/assets/img/menu-ayamnegrijumbo.webp",
-        "alt": "Ayam negri jumbo dengan sambal"
+        "badge": "Termurah!",
+        "image": "assets/img/menu-ayamnegrijumbo.webp",
+        "alt": "Ayam negri jumbo dengan lalapan"
       },
       {
         "name": "Ayam Negri Jumbo Bakar",
         "desc": "Ayam Negri Jumbo, dibakar, bersama Lalapan, dan Sambal.",
         "price": 45000,
         "badge": "",
-        "image": "/assets/img/menu-ayamnegrijumbobakar.webp",
+        "image": "assets/img/menu-ayamnegrijumbobakar.webp",
         "alt": "Ayam negri jumbo bakar"
       }
     ]
