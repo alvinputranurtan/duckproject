@@ -5,70 +5,112 @@ declare(strict_types=1);
 require __DIR__.'/lib/content.php';
 require __DIR__.'/lib/seo.php';
 
-// Override title untuk halaman ini
+// Override meta untuk halaman ini
+$c = content();
 $c['seo']['title'] = 'Kebijakan Privasi - ' . ($c['site']['name'] ?? 'Bebek Goreng Pak Eko');
-$c['seo']['description'] = 'Pelajari tentang kebijakan privasi kami di Bebek Goreng Pak Eko. Kami berkomitmen untuk melindungi data pribadi Anda.';
+$c['seo']['description'] = 'Kebijakan privasi terkait penggunaan situs, kontak WhatsApp, dan layanan pemesanan Bebek Goreng Pak Eko.';
 
 require __DIR__.'/partials/header.php';
 
+$siteName = $c['site']['name'] ?? 'Bebek Goreng Pak Eko';
+$phone = $c['site']['phone_international'] ?? ($c['site']['phone'] ?? '-');
+$address = $c['location']['address'] ?? 'Alamat usaha tersedia pada halaman lokasi';
 ?>
 
 <section class="py-20 bg-surface-dark/30">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h1 class="text-white text-4xl md:text-5xl font-black leading-tight mb-8 text-center">
-      Kebijakan Privasi
-    </h1>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rounded-[2rem] border border-white/10 bg-[#112117]/90 overflow-hidden shadow-2xl">
+      <div class="px-6 py-10 sm:px-10 lg:px-14 border-b border-white/10 bg-gradient-to-br from-brand-yellow/10 via-transparent to-primary/10">
+        <p class="text-brand-yellow text-sm font-bold uppercase tracking-[0.2em] mb-3">Legal</p>
+        <h1 class="text-white text-4xl md:text-5xl font-black leading-tight">Kebijakan Privasi</h1>
+        <p class="text-gray-300 text-base md:text-lg mt-4 max-w-3xl leading-relaxed">
+          Halaman ini menjelaskan bagaimana <?php echo e($siteName); ?> mengelola informasi saat Anda mengakses situs,
+          melihat menu, menghubungi kami melalui WhatsApp, atau menggunakan tautan pemesanan ke platform pihak ketiga.
+        </p>
+        <p class="text-gray-400 text-sm mt-4">Terakhir diperbarui: <?php echo date('d F Y'); ?></p>
+      </div>
 
-    <div class="prose prose-lg prose-invert max-w-none">
-      <p class="text-gray-300 mb-6">
-        Terakhir diperbarui: <?php echo date('d F Y'); ?>
-      </p>
+      <div class="px-6 py-10 sm:px-10 lg:px-14 space-y-10">
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">1. Informasi yang Kami Kumpulkan</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Kami dapat menerima informasi yang Anda berikan secara langsung, seperti nama, nomor telepon, alamat pengantaran,
+            detail pesanan, dan isi pesan ketika Anda menghubungi kami melalui WhatsApp atau kanal pemesanan lain.
+            Kami juga dapat menerima data teknis terbatas seperti alamat IP, jenis perangkat, browser, halaman yang dibuka,
+            dan waktu kunjungan untuk membantu analisis performa situs dan keamanan layanan.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">1. Pengumpulan Informasi</h2>
-      <p class="text-gray-300 mb-6">
-        Kami mengumpulkan informasi yang Anda berikan secara langsung kepada kami, seperti saat Anda menghubungi kami melalui WhatsApp, email, atau formulir di situs web. Informasi ini dapat mencakup nama, nomor telepon, alamat email, dan detail pesanan.
-      </p>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">2. Tujuan Penggunaan Data</h2>
+          <p class="text-gray-300 leading-relaxed mb-4">
+            Informasi tersebut digunakan seperlunya untuk menjalankan operasional bisnis dan pelayanan pelanggan, termasuk:
+          </p>
+          <ul class="list-disc list-inside space-y-2 text-gray-300 leading-relaxed">
+            <li>menanggapi pertanyaan, reservasi, atau permintaan pemesanan;</li>
+            <li>mengonfirmasi detail pesanan, lokasi cabang, dan ketersediaan menu;</li>
+            <li>mempermudah komunikasi lanjutan terkait pengiriman, komplain, atau dukungan pelanggan;</li>
+            <li>meningkatkan kualitas situs, tampilan menu, dan pengalaman pengguna;</li>
+            <li>memenuhi kewajiban hukum yang berlaku jika diperlukan.</li>
+          </ul>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">2. Penggunaan Informasi</h2>
-      <p class="text-gray-300 mb-6">
-        Informasi yang kami kumpulkan digunakan untuk:
-      </p>
-      <ul class="text-gray-300 mb-6 list-disc list-inside">
-        <li>Memproses pesanan Anda</li>
-        <li>Menyediakan layanan pelanggan</li>
-        <li>Mengirim pembaruan tentang produk dan layanan kami</li>
-        <li>Meningkatkan pengalaman pengguna di situs web kami</li>
-      </ul>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">3. Tautan ke WhatsApp dan Platform Pihak Ketiga</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Situs ini menyediakan tautan ke WhatsApp, Google Maps, GoFood, GrabFood, dan ShopeeFood. Ketika Anda menekan
+            tautan tersebut, Anda akan berpindah ke layanan milik pihak ketiga yang memiliki kebijakan privasi masing-masing.
+            Kami menyarankan Anda membaca kebijakan mereka sebelum memberikan data pribadi atau menyelesaikan transaksi.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">3. Berbagi Informasi</h2>
-      <p class="text-gray-300 mb-6">
-        Kami tidak menjual, memperdagangkan, atau menyewakan informasi pribadi Anda kepada pihak ketiga. Informasi hanya dibagikan jika diperlukan untuk memproses pesanan atau sesuai dengan hukum yang berlaku.
-      </p>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">4. Pembagian Informasi</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Kami tidak menjual atau menyewakan data pribadi pelanggan. Informasi hanya dapat dibagikan secara terbatas kepada
+            pihak yang membantu proses layanan, misalnya mitra pengantaran atau platform pemesanan yang Anda pilih, atau apabila
+            diwajibkan oleh hukum, permintaan otoritas yang sah, atau untuk melindungi hak dan keamanan usaha kami.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">4. Keamanan Data</h2>
-      <p class="text-gray-300 mb-6">
-        Kami menerapkan langkah-langkah keamanan yang wajar untuk melindungi informasi pribadi Anda dari akses, penggunaan, atau pengungkapan yang tidak sah.
-      </p>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">5. Penyimpanan dan Keamanan Data</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Kami berupaya menjaga data pribadi dengan langkah yang wajar secara administratif dan teknis. Meski demikian,
+            tidak ada sistem transmisi atau penyimpanan digital yang sepenuhnya bebas risiko. Karena itu, kami tidak dapat
+            menjamin keamanan absolut, namun kami akan mengambil tindakan yang patut bila menemukan indikasi penyalahgunaan data.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">5. Hak Anda</h2>
-      <p class="text-gray-300 mb-6">
-        Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda. Jika Anda ingin melakukannya, silakan hubungi kami melalui informasi kontak di bawah.
-      </p>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">6. Hak Anda</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Anda dapat meminta akses, koreksi, pembaruan, atau penghapusan informasi pribadi yang pernah Anda berikan kepada kami,
+            sepanjang permintaan tersebut tidak bertentangan dengan kewajiban hukum atau kebutuhan pencatatan transaksi yang sah.
+            Permintaan dapat disampaikan melalui kontak resmi yang tersedia di situs ini.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">6. Perubahan Kebijakan</h2>
-      <p class="text-gray-300 mb-6">
-        Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diposting di halaman ini dengan tanggal pembaruan.
-      </p>
+        <section>
+          <h2 class="text-white text-2xl font-black mb-3">7. Perubahan Kebijakan</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Kebijakan privasi ini dapat diperbarui sewaktu-waktu untuk menyesuaikan perubahan layanan, proses operasional,
+            atau ketentuan hukum. Versi terbaru akan selalu ditampilkan pada halaman ini beserta tanggal pembaruannya.
+          </p>
+        </section>
 
-      <h2 class="text-white text-2xl font-bold mb-4">7. Kontak Kami</h2>
-      <p class="text-gray-300 mb-6">
-        Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami di:
-      </p>
-      <ul class="text-gray-300 mb-6 list-disc list-inside">
-        <li>Email: <?php echo e($c['site']['email'] ?? 'info@bebekgorengpakeko.id'); ?></li>
-        <li>Telepon: <?php echo e($c['site']['phone'] ?? ''); ?></li>
-        <li>Alamat: <?php echo e($c['location']['address'] ?? ''); ?></li>
-      </ul>
+        <section class="rounded-3xl border border-white/10 bg-white/5 p-6">
+          <h2 class="text-white text-2xl font-black mb-3">8. Kontak</h2>
+          <p class="text-gray-300 leading-relaxed">
+            Untuk pertanyaan mengenai kebijakan privasi atau pengelolaan data pribadi, Anda dapat menghubungi <?php echo e($siteName); ?>
+            melalui informasi berikut.
+          </p>
+          <div class="mt-4 space-y-2 text-gray-300">
+            <p>Telepon/WhatsApp: <?php echo e($phone); ?></p>
+            <p>Alamat: <?php echo e($address); ?></p>
+          </div>
+        </section>
+      </div>
     </div>
   </div>
 </section>
