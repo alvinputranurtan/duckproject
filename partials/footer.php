@@ -24,6 +24,8 @@ $year = (int) date('Y'); ?>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#tentang">Tentang</a>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#menu">Menu</a>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#lokasi">Lokasi</a>
+        <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="privacy-policy.php">Kebijakan Privasi</a>
+        <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="terms-of-service.php">Syarat dan Ketentuan</a>
       </div>
 
       <div class="flex gap-4">
