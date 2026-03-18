@@ -26,6 +26,7 @@ $year = (int) date('Y'); ?>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#lokasi">Lokasi</a>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="privacy-policy.php">Kebijakan Privasi</a>
         <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="terms-of-service.php">Syarat dan Ketentuan</a>
+        <a class="text-gray-400 hover:text-primary transition-colors text-sm" href="data-deletion-instructions.php">Petunjuk Penghapusan Data</a>
       </div>
 
       <div class="flex gap-4">
@@ -50,6 +51,7 @@ $year = (int) date('Y'); ?>
       <div class="flex gap-6">
         <a class="text-gray-500 hover:text-gray-300 text-xs" href="<?php echo e($c['site']['privacy_url'] ?? '#'); ?>">Privacy Policy</a>
         <a class="text-gray-500 hover:text-gray-300 text-xs" href="<?php echo e($c['site']['terms_url'] ?? '#'); ?>">Terms of Service</a>
+        <a class="text-gray-500 hover:text-gray-300 text-xs" href="data-deletion-instructions.php">Data Deletion</a>
       </div>
     </div>
   </div>
